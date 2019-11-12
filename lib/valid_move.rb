@@ -1,11 +1,12 @@
 # code your #valid_move? method here
 def valid_move(index)
-  if index > 1 && < 9
+  if index > 0 && < 8
     if position_taken?
       puts " This position is taken, try a different position"
     else
       board(indexed)
-
+else
+  puts "Please choose numbers from 1-9"
 
 end
 end
