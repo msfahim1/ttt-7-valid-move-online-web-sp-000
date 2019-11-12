@@ -4,7 +4,7 @@ def valid_move(index)
     if position_taken?
       puts " This position is taken, try a different position"
     else
-      board(indexed)
+      board(index)
 else
   puts "Please choose numbers from 1-9"
 
